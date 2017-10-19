@@ -43,6 +43,7 @@ def persist_data(stock_data, cassandra_session):
 	@return None
 	"""
 	logger.debug('Start to persist data to cassandra %s', stock_data)
+	# stock_data is like this: [{"LastTradeTime": "4:00pm", "LastTradePriceOnly": "160.47"}]
 	parsed = json.loads(stock_data)[0]
 	symbol = parsed.get('StockSymbol')
 	price = float(parsed.get('LastTradePriceOnly'))

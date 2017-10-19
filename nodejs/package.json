@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "web app to display the result of real time stock analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xuanchang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "minimist": "^1.2.0",
+    "nodemon": "^1.12.1",
+    "redis": "^2.8.0",
+    "smoothie": "^1.32.0",
+    "socket.io": "^2.0.3"
+  }
+}
