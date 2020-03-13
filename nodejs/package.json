@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "jquery": "^3.2.1",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "nodemon": "^1.12.1",
     "redis": "^2.8.0",
     "smoothie": "^1.32.0",
