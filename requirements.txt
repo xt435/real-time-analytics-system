@@ -5,7 +5,7 @@ googlefinance==0.7
 googlefinance.client==1.3.0
 idna==2.6
 kafka-python==1.3.5
-numpy==1.13.3
+numpy==1.22.0
 pandas==0.20.3
 py4j==0.10.4
 pyspark==2.2.0
