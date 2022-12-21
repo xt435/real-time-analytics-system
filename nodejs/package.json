@@ -14,7 +14,7 @@
     "minimist": "^1.2.0",
     "nodemon": "^1.12.1",
     "redis": "^2.8.0",
-    "smoothie": "^1.32.0",
+    "smoothie": "^1.36.1",
     "socket.io": "^2.0.3"
   }
 }
